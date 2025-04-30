@@ -7,5 +7,5 @@ int main()
         sum = sum + i;
         printf("%d, %d\n", i, sum);
     }
-    return 0;
+    return  0;
 }
