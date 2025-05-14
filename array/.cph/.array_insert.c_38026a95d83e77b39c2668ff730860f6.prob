@@ -1,0 +1,1 @@
+{"name":"Local: array_insert","url":"/home/tushar/projects/explore-c/array/array_insert.c","tests":[{"id":1747218540369,"input":"5\n10 20 30 40 50\n1 100\n","output":"10 100 20 30 40 50\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tushar/projects/explore-c/array/array_insert.c","group":"local","local":true}
