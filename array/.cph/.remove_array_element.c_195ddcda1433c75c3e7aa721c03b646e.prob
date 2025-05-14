@@ -1,0 +1,1 @@
+{"name":"Local: remove_array_element","url":"/home/tushar/projects/explore-c/array/remove_array_element.c","tests":[{"id":1747232477089,"input":"5\n10 20 30 40 50\n1","output":"10 30 40 50"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tushar/projects/explore-c/array/remove_array_element.c","group":"local","local":true}

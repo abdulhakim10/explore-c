@@ -21,7 +21,7 @@ int main()
     }
     a[idx] = val;
     // print the value after inserting new data
-    for (int i = 0; i <= n; i++)
+    for (int i = 0; i <=  n; i++)
     {
         printf("%d ", a[i]);
     }
