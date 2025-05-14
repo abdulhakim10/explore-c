@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    // pick the input elements
+    // pick the input size
     int n;
     scanf("%d", &n);
     int a[n];
