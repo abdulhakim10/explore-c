@@ -1,0 +1,1 @@
+{"name":"Local: frequency_array","url":"/home/tushar/projects/explore-c/array/frequency_array.c","tests":[{"id":1747545262437,"input":"10\n1 2 0 2 0 3 1 2 5 0","output":"1 2 0 2 0 3 1 2 5 0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tushar/projects/explore-c/array/frequency_array.c","group":"local","local":true}
