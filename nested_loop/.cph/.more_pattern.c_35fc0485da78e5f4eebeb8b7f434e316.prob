@@ -1,0 +1,1 @@
+{"name":"Local: more_pattern","url":"/home/tushar/projects/explore-c/nested_loop/more_pattern.c","tests":[{"id":1747745331331,"input":"5","output":"*\n**\n***\n****\n*****"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tushar/projects/explore-c/nested_loop/more_pattern.c","group":"local","local":true}
