@@ -16,18 +16,19 @@ int main()
     {
        for (int j = i+1; j < n; j++)
        {
-        if(a[i] + a[j] == x){
-            flag = 1;
-            printf("YES\n");
-            printf("%d %d\n", a[i], a[j]);
+        if(a[i] > a[j]){    // '>' acs order '<' decs order
+          int temp = a[i];
+          a[i] = a[j];
+          a[j] = temp;
         }
-       } 
-       
-    }
-    if (flag == 0)
-    {
-        printf("NO");
-    }
+    } 
+    
+}
+for (int i = 0; i < n; i++)
+{
+    printf("%d ", a[i]);
+}
+
     
     
     
