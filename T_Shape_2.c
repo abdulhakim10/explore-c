@@ -1,27 +1,24 @@
 #include<stdio.h>
 int main()
 {
-    int n, star=1;
+    int n,str=1;
     scanf("%d", &n);
-    int space = n-1;
-    // for lines
+    int space = n;
     for (int i = 0; i < n; i++)
     {
-        // for space
-        for (int j = 0; j < space; j++)
+        for (int j = space-1; j > 0; j--)
         {
             printf(" ");
         }
-        // for star
-        for (int j = 0; j < star; j++)
+        
+        for (int j = 0; j < str; j++)
         {
             printf("*");
         }
-        printf("\n");
-        star ++;
+        str += 2;
         space--;
+        printf("\n");
     }
-    
     
     return 0;
 }

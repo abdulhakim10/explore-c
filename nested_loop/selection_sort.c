@@ -8,8 +8,8 @@ int main()
     {
         scanf("%d", &a[i]);
     }
-    int x;
-    scanf("%d", &x);
+    // int x;
+    // scanf("%d", &x);
 
     int flag = 0; // flag variable
     for (int i = 0; i < n-1; i++)
