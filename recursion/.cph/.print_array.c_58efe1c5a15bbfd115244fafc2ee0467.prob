@@ -1,0 +1,1 @@
+{"name":"Local: print_array","url":"/home/tushar/projects/explore-c/recursion/print_array.c","tests":[{"id":1748299685750,"input":"5\n10 20 30 40 50","output":"10\n20\n30\n40\n50"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/tushar/projects/explore-c/recursion/print_array.c","group":"local","local":true}
