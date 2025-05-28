@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    // 1. Welcome with Conditons
+    // 1. Welcome with Conditions
 
     // int a, b;
     // scanf("%d %d", &a, &b);
