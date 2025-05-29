@@ -1,0 +1,1 @@
+{"name":"Local: cheking_zero_matrix","url":"e:\\Phitron\\Explore C Programming\\module-18\\cheking_zero_matrix.c","tests":[{"id":1748414991130,"input":"2 4\n0 0 0 0\n0 0 0 0","output":"This is not a Zero matrix"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Phitron\\Explore C Programming\\module-18\\cheking_zero_matrix.c","group":"local","local":true}
