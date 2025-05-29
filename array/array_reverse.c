@@ -10,7 +10,7 @@ int main()
     {
         scanf("%d", &a[i]);
     }
-    // declare two varriables as pointer
+    // declare two variables as pointer
     int i = 0; // very first index or start point.
     int j = n-1; // very last index or end point.
 
@@ -18,7 +18,7 @@ int main()
     // while (i < j)
     // {
     //     // swapping values
-    //     int tem = a[i]; // declare temporary varriable to ease swap values.
+    //     int tem = a[i]; // declare temporary variable to ease swap values.
     //     a[i] = a[j];
     //     a[j] = tem;
 
@@ -29,7 +29,7 @@ int main()
     for (int i = 0, j = n-1; i < j; i++, j--)
     {
         // swapping values
-        int tem = a[i]; //declare temporary varriable to ease swap values.
+        int tem = a[i]; //declare temporary variable to ease swap values.
         a[i] = a[j];
         a[j] = tem;
     }
