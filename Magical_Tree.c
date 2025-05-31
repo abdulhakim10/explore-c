@@ -1,38 +1,48 @@
 #include <stdio.h>
+int main()
+{
+    int n, star = 1;
+    scanf("%d", &n);
+    int len = n + 10;
+    int row = 0;
+    for (size_t i = 0; i <= len; i++)
+    {
+        if (i % 2 != 0)
+        {
+            row++;
+        }
+    }
+    
+    int space = row;
+    for (int i = 0; i < row; i++)
+    {
+        for (int j = 1; j < space; j++)
+        {
+           printf(" ");
+        }
 
-int main() {
-    int n;
-    scanf("%d", &n);  // Read odd number N (1 <= N <= 21)
-
-    int total_levels = n + 5;                // Total levels of the tree
-    int total_width = 2 * total_levels - 1;  // Full width of the tree
-
-    // Print the top part of the tree (pyramid)
-    for (int i = 0; i < total_levels; i++) {
-        int stars = 2 * i + 1;
-        int spaces = (total_width - stars) / 2;
-
-        for (int s = 0; s < spaces; s++) {
+        for (int j = 0; j < star; j++)
+        {
+            printf("*");
+        }
+        star += 2;
+        space--;
+        printf("\n");
+    } 
+    for (int i = 0; i < 5; i++)
+    {
+        for (int j = 0; j < 5; j++)
+        {
             printf(" ");
         }
-        for (int j = 0; j < stars; j++) {
+        
+         for (int j = 0; j < n; j++)
+        {
             printf("*");
         }
         printf("\n");
     }
-
-    // Print the trunk of the tree
-    for (int i = 0; i < n; i++) {
-        int spaces = (total_width - n) / 2;
-
-        for (int s = 0; s < spaces; s++) {
-            printf(" ");
-        }
-        for (int j = 0; j < n; j++) {
-            printf("*");
-        }
-        printf("\n");
-    }
+    
 
     return 0;
 }

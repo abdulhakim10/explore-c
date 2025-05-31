@@ -42,3 +42,36 @@ int main()
 
     return 0;
 }
+
+// #include <stdio.h>
+
+// int main() {
+//     int n;
+//     scanf("%d", &n); // Number of test cases
+
+//     for (int j = 0; j < n; j++) {
+//         int a[4];
+
+//         // Read 4 numbers
+//         for (int i = 0; i < 4; i++) {
+//             scanf("%d", &a[i]);
+//         }
+
+//         int x = a[0];                   // First value
+//         int y = a[1] * a[2] * a[3];     // Product of last three
+
+//         // Avoid division by zero
+//         if (y == 0) {
+//             printf("-1\n");
+//         }
+//         // Check if result is not an integer (has a fractional part)
+//         else if (x % y != 0) {
+//             printf("-1\n");
+//         }
+//         else {
+//             printf("%d\n", x / y);
+//         }
+//     }
+
+//     return 0;
+// }
